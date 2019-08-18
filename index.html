@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Crystal Collector</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>Crystal Collector!</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" id="instructions">
+                <p>
+                    You will be given a random number at the start of the game.
+
+
+                    There are four crystals below. By clicking on a crystal you will add a specific amount of points to
+                    your total score.
+
+
+                    You win the game by matching your total score to random number, you lose the game if your total
+                    score goes above the random number.
+
+
+                    The value of each crystal is hidden from you until you click on it.
+
+
+                    Each time when the game starts, the game will change the values of each crystal.
+
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <h4>generated</h4>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="Wins">
+                    <h2>Wins: <span id="wins">0</span><br>
+                        Loses <span id="loses">0</span></h2>
+                </div>
+                <button type="button" class="btn btn-primary">Jewels</button>
+                <button type="button" class="btn btn-success">Jewels</button>
+                <button type="button" class="btn btn-danger">Jewels</button>
+                <button type="button" class="btn btn-warning">Jewels</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="wordclass.js"></script>
+</body>
+
+</html>

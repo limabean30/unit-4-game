@@ -1,0 +1,43 @@
+body {
+    background-color: lightblue;
+    color: green;
+  
+}
+
+p{
+    width: 300px;
+    height: 500px;  
+    
+}
+#instructions{
+    width: 900px;
+    height: 300px;
+    background-color: blanchedalmond
+}
+  
+h4{
+    background-color: brown;
+    width: 200px;
+    height: 130px;
+    padding: 5px;
+}
+
+h2{
+padding: 25px;
+float: left;
+}
+
+h3{
+padding: 25px;
+
+}
+button{
+    float: left;
+}
+
+.Wins{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: px
+}
